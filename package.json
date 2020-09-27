@@ -1,0 +1,25 @@
+{
+  "name": "rdtheme",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --includepath scss assets/scss/Estilo.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoRaposo/RDtheme.git"
+  },
+  "author": "Facundo Raposo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacundoRaposo/RDtheme/issues"
+  },
+  "homepage": "https://github.com/FacundoRaposo/RDtheme#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
