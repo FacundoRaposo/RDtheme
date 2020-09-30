@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #21413c;
+  color: #062822;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -634,7 +634,7 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #1bac91;
+  color: #fff;
 }
 
 .features .nav-link h4 {
@@ -653,7 +653,7 @@ section {
 }
 
 .features .nav-link.active h4 {
-  color: #1bac91;
+  color: #062822;
 }
 
 .features .tab-pane.active {
