@@ -6,3 +6,22 @@ $colorBlanco:#fff;
 $turquesa: #1bac91;
 $darkturque: #062822;
           
+/*--------------------------------------------------------------
+# Width
+--------------------------------------------------------------*/
+
+$smallw: 40px;
+$mediumw: 200px;
+$largew: 600px;
+
+$mensajes:(
+    validate: #55acee,
+    error-message:rgb(146, 27, 27),
+    sent-message: green,
+);
+
+@each $mensaje, $color in $mensajes{
+    .#{$mensaje}{
+        background-color: $color;
+    }
+} 

@@ -30,7 +30,7 @@ body {
   .back-to-top {
     position: fixed;
     display: none;
-    width: 40px;
+    width: $smallw/2;
     height: 40px;
     border-radius: 3px;
     right: 15px;
@@ -151,7 +151,7 @@ body {
         height: 2px;
         bottom: 3px;
         left: 0;
-        background-color: $turquesa;
+        background-color: $darkturque;
         visibility: hidden;
         width: 0px;
         transition: all 0.3s ease-in-out 0s;
@@ -838,7 +838,7 @@ body {
       background-color: #ddd !important;
   
       &.active {
-        background-color: #1bac91 !important;
+        background-color:$darkturque !important;
       }
     }
   }
@@ -1253,7 +1253,7 @@ body {
       color: #343a40;
   
       &:hover {
-        color: #1bac91;
+        color: $darkturque;
       }
   
       .icon-show {
@@ -1317,7 +1317,7 @@ body {
       }
   
       .social-links {
-        padding-left: 60px;
+        padding-left: $smallw+20;
   
         a {
           font-size: 18px;
@@ -1334,14 +1334,14 @@ body {
           margin-right: 10px;
   
           &:hover {
-            background: #1bac91;
+            background: $darkturque;
             color: #fff;
           }
         }
       }
   
       .email:hover i, .address:hover i, .phone:hover i {
-        background: #1bac91;
+        background: $darkturque;
         color: #fff;
       }
     }
@@ -1358,7 +1358,6 @@ body {
   
       .validate {
         display: none;
-        color: red;
         margin: 0 0 15px 0;
         font-weight: 400;
         font-size: 13px;
@@ -1367,7 +1366,6 @@ body {
       .error-message {
         display: none;
         color: #fff;
-        background: #ed3c0d;
         text-align: left;
         padding: 15px;
         font-weight: 600;
@@ -1380,7 +1378,6 @@ body {
       .sent-message {
         display: none;
         color: #fff;
-        background: #18d26e;
         text-align: center;
         padding: 15px;
         font-weight: 600;
@@ -1421,7 +1418,7 @@ body {
       }
   
       button[type="submit"] {
-        background: #1bac91;
+        background: $darkturque;
         border: 0;
         padding: 10px 24px;
         color: #fff;
@@ -1529,7 +1526,7 @@ body {
   
           i {
             padding-right: 2px;
-            color: #4ae3c6;
+            color: $darkturque;
             font-size: 18px;
             line-height: 1;
           }
@@ -1551,7 +1548,7 @@ body {
             line-height: 1;
   
             &:hover {
-              color: #34dfbf;
+              color: $darkturque;
             }
           }
         }

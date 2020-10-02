@@ -2,6 +2,21 @@
 # Variables
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+# Width
+--------------------------------------------------------------*/
+.validate {
+  background-color: #55acee;
+}
+
+.error-message {
+  background-color: #921b1b;
+}
+
+.sent-message {
+  background-color: green;
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -28,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  width: 40px;
+  width: 20px;
   height: 40px;
   border-radius: 3px;
   right: 15px;
@@ -149,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: #062822;
   visibility: hidden;
   width: 0px;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -457,7 +472,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #fff;
 }
 
 .section-title {
@@ -470,7 +485,7 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #21413c;
+  color: #062822;
 }
 
 .section-title p {
@@ -563,7 +578,7 @@ section {
   font-size: 22px;
   font-weight: 500;
   margin-left: 60px;
-  color: #21413c;
+  color: #062822;
 }
 
 .about .icon-box p {
@@ -602,7 +617,7 @@ section {
   font-weight: 400;
   padding: 0;
   margin: 20px 0;
-  color: #21413c;
+  color: #062822;
 }
 
 .steps .content-item p {
@@ -813,7 +828,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #1bac91 !important;
+  background-color: #062822 !important;
 }
 
 @media (max-width: 767px) {
@@ -1241,7 +1256,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1bac91;
+  color: #062822;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1330,12 +1345,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #1bac91;
+  background: #062822;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1bac91;
+  background: #062822;
   color: #fff;
 }
 
@@ -1353,7 +1368,6 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1362,7 +1376,6 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1375,7 +1388,6 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1417,7 +1429,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1bac91;
+  background: #062822;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1530,7 +1542,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4ae3c6;
+  color: #062822;
   font-size: 18px;
   line-height: 1;
 }
@@ -1558,7 +1570,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #34dfbf;
+  color: #062822;
 }
 
 #footer .footer-top .footer-newsletter form {
