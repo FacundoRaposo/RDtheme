@@ -649,7 +649,7 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #fff;
+  color: #4f4f4f;
 }
 
 .features .nav-link h4 {
@@ -737,19 +737,7 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon i {
-  color: #0f0f0f7c;
-}
-
-.services .icon-box-cyan .icon i {
-  color: #0f0f0f7c;
-}
-
-.services .icon-box-green .icon i {
-  color: #0f0f0f7c;
-}
-
-.services .icon-box-blue .icon i {
+.services .icon-box .icon i {
   color: #0f0f0f7c;
 }
 

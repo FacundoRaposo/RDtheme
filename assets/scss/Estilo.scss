@@ -655,7 +655,7 @@ body {
       color: #21413c;
   
       &:hover {
-        color: $colorBlanco;
+        color: $greydark;
       }
   
       h4 {
@@ -746,21 +746,10 @@ body {
       margin-bottom: 0;
     }
   
-    .icon-box-pink .icon i {
+    .icon-box .icon i {
       color:$colorGris;
     }
   
-    .icon-box-cyan .icon i {
-      color:$colorGris;
-    }
-  
-    .icon-box-green .icon i {
-      color: $colorGris;
-    }
-  
-    .icon-box-blue .icon i {
-      color:$colorGris;
-    }
   }
   
   /*--------------------------------------------------------------
