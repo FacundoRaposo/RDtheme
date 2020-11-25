@@ -1180,86 +1180,6 @@ body {
     }
   }
   
-  /*--------------------------------------------------------------
-  # F.A.Q
-  --------------------------------------------------------------*/
-  
-  .faq .faq-list {
-    padding: 0 100px;
-  
-    ul {
-      padding: 0;
-      list-style: none;
-    }
-  
-    li {
-      + li {
-        margin-top: 15px;
-      }
-  
-      padding: 20px;
-      background: #fff;
-      border-radius: 4px;
-      position: relative;
-    }
-  
-    a {
-      display: block;
-      position: relative;
-      font-family: "Poppins", sans-serif;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 500;
-      padding: 0 30px;
-      outline: none;
-    }
-  
-    .icon-help {
-      font-size: 24px;
-      position: absolute;
-      right: 0;
-      left: 20px;
-      color: #97cac2;
-    }
-  
-    .icon-show, .icon-close {
-      font-size: 24px;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    p {
-      margin-bottom: 0;
-      padding: 10px 0 0 0;
-    }
-  
-    .icon-show {
-      display: none;
-    }
-  
-    a.collapsed {
-      color: #343a40;
-  
-      &:hover {
-        color: $darkturque;
-      }
-  
-      .icon-show {
-        display: inline-block;
-      }
-  
-      .icon-close {
-        display: none;
-      }
-    }
-  }
-  
-  @media (max-width: 1200px) {
-    .faq .faq-list {
-      padding: 0;
-    }
-  }
   
   /*--------------------------------------------------------------
   # Contact
@@ -1274,7 +1194,7 @@ body {
   
       i {
         font-size: 20px;
-        color: #1bac91;
+        color: #1a2221;
         float: left;
         width: 44px;
         height: 44px;
@@ -1407,7 +1327,7 @@ body {
       }
   
       button[type="submit"] {
-        background: $darkturque;
+        background: $colorGris;
         border: 0;
         padding: 10px 24px;
         color: #fff;
@@ -1415,7 +1335,7 @@ body {
         border-radius: 4px;
   
         &:hover {
-          background: #22d8b6;
+          background: $darkturque;
         }
       }
     }
@@ -1491,7 +1411,7 @@ body {
         transition: 0.3s;
   
         &:hover {
-          background: #1bac91;
+          background:$darkturque;
           color: #fff;
           text-decoration: none;
         }
@@ -1566,13 +1486,13 @@ body {
             background: none;
             font-size: 16px;
             padding: 0 20px;
-            background: #1bac91;
+            background: $colorGris;
             color: #fff;
             transition: 0.3s;
             border-radius: 0 4px 4px 0;
   
             &:hover {
-              background: #14806c;
+              background: $darkturque;
             }
           }
         }

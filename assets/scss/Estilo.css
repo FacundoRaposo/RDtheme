@@ -1182,86 +1182,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # F.A.Q
-  --------------------------------------------------------------*/
-.faq .faq-list {
-  padding: 0 100px;
-}
-
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  position: relative;
-}
-
-.faq .faq-list li + li {
-  margin-top: 15px;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-}
-
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: #97cac2;
-}
-
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #062822;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
-}
-
-/*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
 .contact .info {
@@ -1274,7 +1194,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1bac91;
+  color: #1a2221;
   float: left;
   width: 44px;
   height: 44px;
@@ -1417,7 +1337,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #062822;
+  background: #0f0f0f7c;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1427,7 +1347,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #22d8b6;
+  background: #062822;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1505,7 +1425,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1bac91;
+  background: #062822;
   color: #fff;
   text-decoration: none;
 }
@@ -1584,7 +1504,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1bac91;
+  background: #0f0f0f7c;
   color: #fff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1592,7 +1512,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #14806c;
+  background: #062822;
 }
 
 #footer .copyright {
